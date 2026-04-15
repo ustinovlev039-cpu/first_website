@@ -16,7 +16,7 @@
 
 ## Структура проекта
 
-
+```
 project/
 │
 ├── app.py
@@ -28,8 +28,7 @@ project/
 │ ├── catalog.html
 │ ├── category.html
 │ └── contacts.html
-
-
+```
 ---
 
 ## Верстка страниц
