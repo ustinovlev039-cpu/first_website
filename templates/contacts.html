@@ -9,8 +9,9 @@
 <body class="bg-light">
 <div class="container-fluid">
     <div class="row min-vh-100">
-        <aside class="col-md-2 bg-dark text-white p-3">
+        <aside class="col-lg-2 col-md-3 bg-dark text-white p-3 d-flex flex-column">
             <h5 class="mb-4">Меню</h5>
+
             <ul class="nav flex-column">
                 <li class="nav-item mb-2">
                     <a href="index.html" class="nav-link text-white">Главная</a>
@@ -26,49 +27,49 @@
                 </li>
             </ul>
 
-            <div class="mt-auto pt-5">
+            <div class="mt-auto pt-5 border-top border-secondary">
                 <button class="btn btn-secondary btn-sm w-100 mb-2">Профиль</button>
                 <button class="btn btn-outline-light btn-sm w-100">Выход</button>
-                <p class="mt-3 small">Пользователь</p>
+                <p class="mt-3 small mb-0">Пользователь</p>
             </div>
         </aside>
 
-        <main class="col-md-10 p-5">
+        <main class="col-lg-10 col-md-9 p-5">
             <div class="text-center mb-5">
                 <h1>Контакты</h1>
             </div>
 
-            <div class="row">
-                <div class="col-md-5">
+            <div class="row g-5 align-items-start">
+                <div class="col-lg-5">
                     <form action="/" method="post" class="border rounded p-4 bg-white shadow-sm">
                         <div class="mb-3">
                             <label for="name" class="form-label">Имя</label>
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Введите имя">
+                            <input type="text" class="form-control" id="name" name="name">
                         </div>
 
                         <div class="mb-3">
                             <label for="email" class="form-label">Почта</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Введите почту">
+                            <input type="email" class="form-control" id="email" name="email">
                         </div>
 
                         <div class="mb-3">
                             <label for="message" class="form-label">Сообщение</label>
-                            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Введите сообщение"></textarea>
+                            <textarea class="form-control" id="message" name="message" rows="4"></textarea>
                         </div>
 
                         <button type="submit" class="btn btn-primary">Отправить</button>
                     </form>
                 </div>
 
-                <div class="col-md-6 offset-md-1">
-                    <h4>Наши контакты</h4>
-                    <p>
-                        Здесь может быть размещена контактная информация компании:
-                        адрес, телефон, электронная почта и краткое описание.
+                <div class="col-lg-5">
+                    <h4 class="mb-3">Наши контакты</h4>
+                    <p class="text-muted">
+                        Здесь может быть размещена контактная информация компании: адрес, телефон,
+                        электронная почта и краткое описание.
                     </p>
-                    <p>
-                        Эта страница используется как основная страница ответа
-                        веб-приложения при любом GET-запросе.
+                    <p class="text-muted">
+                        Эта страница подходит для отображения шаблона при GET-запросе в простом
+                        веб-приложении на Python.
                     </p>
                 </div>
             </div>
